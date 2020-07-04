@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/creating.css">
+    <title>Criação</title>
+</head>
+<body>
+    <div class="content">
+        <form >
+            <h1>Cadastre o cartão</h1>
+            <div class="input-icon" id="name" >
+                <label>Nome do banco</label>
+                <input
+                    placeholder="Nome do banco"
+                    type="text"
+                    id="card-bank"
+                    required
+                    autocomplete="off"
+                >
+                <i class="fas fa-signature"></i>
+            </div>
+            <div class="input-icon" id="brand">
+                <label id="customfile">Imagem</label>
+                <input
+                    placeholder="Digite a url da imagem"
+                    id='card-img'
+                    name="card-img"
+                    accept="image/x-png,image/gif,image/jpeg" 
+                    type="file"
+                    autocomplete="off"
+                    required
+                >
+                <label for="card-img" id="btnv2" >Selecione uma Imagem</label>
+                <i class="far fa-image"></i>
+            </div>
+            <div class="input-icon" id="category">
+                <label>Categoria</label>
+                <select required id="card-category">
+                    <option value="">Selecione uma categoria</option>
+                    <option value="Platinum">Platinum</option>
+                    <option value="Gold">Gold</option>
+                    <option value="Black">Black</option>
+                    <option value="Nacional">Nacional</option>
+                </select>
+                <i class="fas fa-credit-card"></i>
+            </div>
+           <div class="limite-taxa" id="limite-taxa" >
+            <div class="input-icon" id="limite">
+                <label>Limite do cartão</label>
+                <input
+                    placeholder="Limite"
+                    type="number"
+                    id='card-limit'
+                    autocomplete="off"
+                    required
+                >
+                <i class="fas fa-ban"></i>
+            </div>
+            <div class="input-icon" id="taxa">
+                <label>Taxa anual</label>
+                <input
+                    placeholder="Taxa anual"
+                    id="card-annual-fee"
+                    type="number"
+                    autocomplete="off"
+                    required
+                >
+                <i class="far fa-money-bill-alt"></i>
+            </div>
+            </div>
+            <div class="input-icon" id="brands" >
+                <div class="brands" id="brands2">
+                    <div>
+                        <input
+                            type="radio"
+                            id="visa-card"
+                            name="brands"
+                            value="visa"
+                            required
+                        >
+                        <img src="img/visa-logo.svg">
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            id="mastercard-card"
+                            name="brands"
+                            value="Mastercard"
+                            required
+                        >
+                        <img src="img/mastercard-logo.png">
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            name="brands"
+                            id="elo-card"
+                            value='Elo'
+                            required
+                        >
+                        <img src="img/elo-logo.png">
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            name="brands"
+                            id="hipercard-card"
+                            value="hipercard"
+                            required
+                        >
+                        <img src="img/hipercard-logo.png">
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            name="brands"
+                            id="american-card"
+                            value="American express"
+                            required
+                        >
+                        <img src="img/american-logo.png">
+                    </div>
+                </div>
+            </div>
+           <button id="button" disabled>Cadastrar</button>
+        </form>
+        <a href="index.html" ><button>Voltar</button></a>
+    </div>
+    <script src="create.js"></script>
+    <script src="https://kit.fontawesome.com/f90dab5b1d.js" crossorigin="anonymous"></script>
+</body>
+</html>

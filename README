@@ -1,0 +1,4 @@
+Olá, para que esta aplicação funcione corretamente
+
+É necessário que ela tenha um host para rodar no lado do servidor pois estou usando métodos HTTP
+(recomendo a extensão live server do visual studio code).

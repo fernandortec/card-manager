@@ -1,0 +1,16 @@
+[{
+    "name": "Santader",
+    "brand": "Mastercard",
+    "category": "Gold",
+    "image":"https://cms.santander.com.br/sites/WPS/imagem/cartao-de-credito-aa-gold/19-12-03_160433_P_cartao-de-credito-aa-gold.png",
+    "credit_limit": 2000,
+    "annual_fee": 100
+    }, {
+    "name": "Bradesco",
+    "brand": "Visa",
+    "category": "Silver",
+    "image":"https://static.foregon.com/product-images/cartao-de-credito-bradesco-visa-internacional_700-440.png",
+    "credit_limit": 1000,
+    "annual_fee": 50
+    }]
+    

@@ -1,0 +1,201 @@
+.content .input-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding:0px 8px 0px 8px;
+    width: 65%;
+    margin-top: 20px;
+}
+.content .limite-taxa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content .limite-taxa div {
+    margin: 10px 5px 10px 5px;
+}
+.content form img {
+    transform: scale(0.65);
+}
+.content .input-icon input {
+    border: 1px solid lightgray ;
+    border-radius: 0px;
+    border-bottom: none;
+    border-top: none;
+    margin:0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.content a {
+    width: 25%;
+    text-align: center;
+    margin-top: 50px;
+    transform: scale(0.90);
+}
+.content a button {
+    background-color: lightgray;
+    color: black;
+    box-shadow: 0px 5px 10px 1px gray;
+}
+.content #brands {
+    border: none;
+}
+.content .input-icon .brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content .input-icon .brands input {
+    width: 18px;
+    margin-top: 10px;
+    height:18px;
+    border: none;
+}
+.content .input-icon .brands div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content .input-icon .brands img {
+    width: 100px;
+    height: 50px;
+}
+.content .input-icon .brands #mastercard-card {
+    transform: scale(1.20);
+}
+.content #category select {
+    height: 40px;
+    width: 60%;
+    background: none;
+    border:1px solid lightgray ;
+    border-top: none;
+    border-bottom: none;
+    margin:0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+    outline: 0;
+    font-size: 16px;
+}
+.content #category option {
+    outline: 0;
+    border: 0;
+}
+.content button {
+    margin-top: 20px;
+}
+.content .input-icon input[type='file']{
+    display: none;
+}
+.content .input-icon #btnv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray ;
+    border-radius: 3px;
+    border-bottom: none;
+    border-top: none;
+    margin:0px 30px 0px 30px;
+    padding: 0px 40px 0px 40px;
+    width: 40%;
+    height: 45px;
+    outline: 0;
+    box-shadow: 0px 3px 10px 5px lightgray;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #6633cc;
+    text-align: center;
+}
+.content .input-icon #btnv2:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.content .input-icon #btn2:active {
+    box-shadow: 0px 1px 10px 5px lightgray;
+    transform: translateY(3px);
+}
+@Media(max-width:600px){
+    body {
+        height: 200vh;
+    }
+    .content form {
+        width: 100%;
+        height: 100%;
+    }
+    #name {
+        display: flex;
+        flex-direction: column;
+    }
+    #name input {
+        border: 1px solid;
+    }
+    #name * {
+        margin: 3px 0px 3px 0px;
+    }
+    #brand {
+        display: flex;
+        flex-direction: column;
+    }
+    #brand #btnv2 {
+        padding: 10px;
+        height: 80px;
+        width: 80%;
+    }
+    #brand * {
+        margin: 10px 0px 10px 0px;
+    }
+    #category {
+        display: flex;
+        flex-direction: column;
+    }
+    #category input {
+        border: 1px solid;
+        width: 90%;
+    }
+    #category * {
+        margin: 3px 0px 3px 0px;
+    }
+    #limite-taxa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #limite {
+        display: flex;
+        flex-direction: column;
+        width:85%;
+    }
+    #limite input {
+        border: 1px solid;
+    }
+    #limite * {
+        margin: 3px 0px 3px 0px;
+    }
+    #taxa {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+    #taxa input {
+        border: 1px solid;
+    }
+    #taxa * {
+        margin: 3px 0px 3px 0px;
+    }
+    #brands2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #brands2 input {
+        border: 1px solid;
+    }
+    #brands2 * {
+        margin: 3px 0px 3px 0px;
+    }
+}
