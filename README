@@ -1,2 +1,4 @@
-Hello, this aplication is using HTTP methods, due to that it needs to run in a host ( so the server-side can process the data) i recommend using Live Server extension from vscocde
-Enjoy!!
+Olá, para que esta aplicação funcione corretamente
+
+É necessário que ela tenha um host para rodar no lado do servidor pois estou usando métodos HTTP
+(recomendo a extensão live server do visual studio code).
